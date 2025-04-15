@@ -1,0 +1,151 @@
+/* Estilos para la aplicación PokéCache */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.pokemon-image {
+    width: 96px;
+    height: 96px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-image:hover {
+    transform: scale(1.1);
+}
+
+.badge-type {
+    margin-right: 5px;
+    border-radius: 4px;
+    padding: 5px 8px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+}
+
+/* Colores para los tipos de Pokémon */
+.pokemon-type-normal { background-color: #A8A77A; }
+.pokemon-type-fire { background-color: #EE8130; }
+.pokemon-type-water { background-color: #6390F0; }
+.pokemon-type-electric { background-color: #F7D02C; }
+.pokemon-type-grass { background-color: #7AC74C; }
+.pokemon-type-ice { background-color: #96D9D6; }
+.pokemon-type-fighting { background-color: #C22E28; }
+.pokemon-type-poison { background-color: #A33EA1; }
+.pokemon-type-ground { background-color: #E2BF65; }
+.pokemon-type-flying { background-color: #A98FF3; }
+.pokemon-type-psychic { background-color: #F95587; }
+.pokemon-type-bug { background-color: #A6B91A; }
+.pokemon-type-rock { background-color: #B6A136; }
+.pokemon-type-ghost { background-color: #735797; }
+.pokemon-type-dragon { background-color: #6F35FC; }
+.pokemon-type-dark { background-color: #705746; }
+.pokemon-type-steel { background-color: #B7B7CE; }
+.pokemon-type-fairy { background-color: #D685AD; }
+
+/* Clases para la interfaz */
+.loading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pokemon-detail-modal .modal-title {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #212529;
+}
+
+.cache-info {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.app-header {
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.btn-clear-cache {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    transition: all 0.3s ease;
+}
+
+.btn-clear-cache:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.stats-bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.pokemon-detail-img {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 50%;
+    padding: 15px;
+    border: 2px solid #eee;
+}
+
+.stats-label {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.view-details {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.view-details:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
