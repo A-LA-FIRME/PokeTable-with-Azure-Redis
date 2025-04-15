@@ -26,9 +26,7 @@ Esta aplicación muestra cómo implementar Azure Cache for Redis con Python y Fl
 
 3. Crear un archivo `.env` en el directorio raíz del proyecto con las siguientes variables:
    ```
-   REDIS_HOST=your-redis-instance.redis.cache.windows.net
-   REDIS_KEY=your-access-key
-   REDIS_PORT=6380
+   REDIS_CONNECTION_STRING=your-redis-connection-string
    ```
 
 ## Estructura del Proyecto
